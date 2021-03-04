@@ -6,8 +6,9 @@
 
     <groupId>com.github.baunz.kafka.connect.storage</groupId>
     <artifactId>struct-converters</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>${release_version}</version>
     <properties>
+        <release_version>0.1-SNAPSHOT</release_version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <kafkaconnect.version>2.7.0</kafkaconnect.version>
