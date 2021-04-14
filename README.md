@@ -47,7 +47,7 @@ The following connector configuration
 connector.class=io.confluent.connect.jdbc.JdbcSinkConnector
 topics=super_event
 key.converter=org.apache.kafka.connect.storage.StringConverter
-value.converter=com.github.baunz.kafka.connect.StringAsStructConverter
+value.converter=com.github.baunz.kafka.connect.storage.StringAsStructConverter
 connection.url=jdbc=mysql=//awesome-db/
 insert.mode=UPSERT
 pk.mode=record_key
