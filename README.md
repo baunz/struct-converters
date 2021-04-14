@@ -44,12 +44,12 @@ create table `super_event` (
 The following connector configuration 
  
  ```
-connector.class= io.confluent.connect.jdbc.JdbcSinkConnector
+connector.class=io.confluent.connect.jdbc.JdbcSinkConnector
 topics=super_event
 key.converter=org.apache.kafka.connect.storage.StringConverter
-value.converter=org.baunz.kafka.connect.StringAsStructConverter
+value.converter=com.github.baunz.kafka.connect.storage.StringAsStructConverter
 connection.url=jdbc=mysql=//awesome-db/
-insert.mode= UPSERT
+insert.mode=UPSERT
 pk.mode=record_key
 pk.fields=id
 ```
