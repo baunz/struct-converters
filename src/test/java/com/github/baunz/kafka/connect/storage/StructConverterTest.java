@@ -22,7 +22,7 @@ class StructConverterTest {
 
     @BeforeAll
     void beforeAll() {
-        converter.configure(Collections.singletonMap("converter.fieldname", CUSTOM_FIELD_NAME), true);
+        converter.configure(Collections.singletonMap("fieldname", CUSTOM_FIELD_NAME), true);
     }
 
     private Struct assertSchemaAndStruct(SchemaAndValue schemaAndValue) {
