@@ -29,7 +29,7 @@ import java.util.Map;
  */
 public class StructConverterConfig extends ConverterConfig {
 
-    public static final String FIELD_NAME_CONFIG = "converter.fieldname";
+    public static final String FIELD_NAME_CONFIG = "fieldname";
     public static final String FIELD_NAME_DEFAULT = "value";
     private static final String FIELD_NAME_DOC = "The name of the field that contains the string value in the resulting struct.";
     private static final String FIELD_NAME_DISPLAY = "Field name to use for the struct";
