@@ -15,7 +15,7 @@ import java.util.Map;
 /**
  * Convert primitive values from and to ConnectData with a struct schema (as opposed to the matching primitive type)
  */
-public class StructConverter implements Converter {
+abstract class StructConverter implements Converter {
 
     private final Converter converter;
     private String fieldName;
