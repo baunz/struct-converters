@@ -26,9 +26,7 @@ class StructConverterTest {
     }
 
     private Struct assertSchemaAndStruct(SchemaAndValue schemaAndValue) {
-
-        assertThat(schemaAndValue)
-                .isNotNull();
+        assertThat(schemaAndValue).isNotNull();
         Schema schema = schemaAndValue.schema();
         assertThat(schema).isNotNull();
         assertThat(schema.type()).isEqualTo(Schema.Type.STRUCT);
