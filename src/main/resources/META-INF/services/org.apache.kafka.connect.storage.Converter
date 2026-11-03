@@ -1,0 +1,2 @@
+com.github.baunz.kafka.connect.storage.StringAsStructConverter
+com.github.baunz.kafka.connect.storage.IntegerAsStructConverter
